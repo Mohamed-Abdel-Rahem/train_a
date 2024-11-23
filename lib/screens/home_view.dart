@@ -16,7 +16,8 @@ class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListView.builder(
+      body: ListView.separated(
+        separatorBuilder: (context, index) => Divider(),
         itemCount: employees.length,
         itemBuilder: (context, index) => ListTile(
           onTap: () {

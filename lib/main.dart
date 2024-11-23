@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:train_a/screens/hom_view.dart';
-import 'package:train_a/screens/post_app.dart';
+import 'package:train_a/screens/home_view.dart';
 
 void main() {
   runApp(const TestApp());
@@ -17,7 +16,7 @@ class TestApp extends StatelessWidget {
         useMaterial3: false,
         primarySwatch: Colors.blue,
       ),
-      home: PostApp(),
+      home: HomeView(),
     );
   }
 }

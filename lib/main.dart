@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:train_a/screens/home_view.dart';
 
 void main() {
-  runApp(const TestApp());
+  runApp(const DepiApp());
 }
 
-class TestApp extends StatelessWidget {
-  const TestApp({super.key});
+class DepiApp extends StatelessWidget {
+  const DepiApp({super.key});
 
   // This widget is the root of your application.
   @override

@@ -2,7 +2,7 @@ import 'package:train_a/model/user.dart';
 
 final List<Employee> employees = [
   Employee(
-    name: 'Alice Johnson',
+    name: 'Alice Jhnson',
     phone: '01152619144',
     position: 'Software Engineer',
     picture: 'https://picsum.photos/200/300?random=1',

@@ -30,7 +30,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 setState(() {
                   isChecked = value!;
                 });
-                if (isChecked == true) {}
               })
         ],
       ),

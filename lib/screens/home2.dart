@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 columns: [
                   DataColumn(
                     label: Text(
-                      'Name',
+                      'Nae',
                     ),
                   ),
                   DataColumn(

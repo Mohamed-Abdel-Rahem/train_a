@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:train_a/screens/home_view.dart';
+import 'package:train_a/screens/home2.dart';
 
 void main() {
   runApp(const DepiApp());
@@ -16,7 +16,7 @@ class DepiApp extends StatelessWidget {
         useMaterial3: false,
         primarySwatch: Colors.blue,
       ),
-      home: HomeView(),
+      home: MyHomePage(),
     );
   }
 }

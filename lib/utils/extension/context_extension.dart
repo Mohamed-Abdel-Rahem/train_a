@@ -9,7 +9,7 @@ extension ContextExtension on BuildContext {
           ),
           duration: Duration(seconds: 3),
           action: SnackBarAction(
-            label: 'View Profile',
+            label: message,
             onPressed: () => onClick!.call(),
           )),
     );

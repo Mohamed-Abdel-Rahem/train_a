@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:train_a/screens/home2.dart';
+import 'package:train_a/screens/home.dart';
 
 void main() {
   runApp(const DepiApp());

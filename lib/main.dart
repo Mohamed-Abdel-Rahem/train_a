@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:train_a/screens/home.dart';
+import 'package:train_a/screens/sharedPage.dart';
 
 void main() {
   runApp(const DepiApp());
@@ -12,11 +12,11 @@ class DepiApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // theme: ThemeData(
-      //   useMaterial3: false,
-      //   primarySwatch: Colors.blue,
-      // ),
-      home: MyHomePage(),
+      theme: ThemeData(
+        useMaterial3: false,
+        primarySwatch: Colors.blue,
+      ),
+      home: Sharedpage(),
     );
   }
 }
